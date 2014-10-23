@@ -60,7 +60,9 @@ It is important that you setup the Command Line Alert Template first or the 'Com
 
 At the beginning of a new PowerShell script, include the following line:
 
-`Import-Module Varonis -Force -ArgumentList $args`
+```powershell
+Import-Module Varonis -Force -ArgumentList $args
+```
 
 This will pass the arguments specified in the Alert Template into the script as referenceable variables. 
 
