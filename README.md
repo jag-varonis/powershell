@@ -1,6 +1,6 @@
 #Varonis PowerShell Resources
 
-![](https://github.com/varonis/powershell/blob/master/assets/logos.png)
+![](https://raw.githubusercontent.com/varonis/powershell/master/assets/logos.png)
 
 
 This repository is a collection of PowerShell scripts, modules and resources to extend the functionality of the Varonis Software Suite.
