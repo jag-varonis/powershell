@@ -1,6 +1,6 @@
 
 <p align='center'>
-![](https://raw.githubusercontent.com/varonis/powershell/master/assets/logos.png)
+<img src='https://raw.githubusercontent.com/varonis/powershell/master/assets/logos.png'>
 </p>
 
 
