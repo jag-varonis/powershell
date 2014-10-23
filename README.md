@@ -81,7 +81,10 @@ The variables are:
 
 This greatly simplifies the development of scripts, often to a single line:
 	
-ex: `Disable-ADAccount -Identity $actingObject`
+ex: 
+```powershell
+Disable-ADAccount -Identity $actingObject
+```
 
 Additional example scripts utilizing this technique are included in the `scripts` directory. 
 
