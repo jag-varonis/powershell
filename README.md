@@ -31,7 +31,7 @@ Alternatively, the PSModulePath could be extended or an alternate location speci
 
 You can test if you have included the module by executing the `test-varonis-module.ps1` script with the following series of parameters:
 
-`test-varonis-module.ps1 "ruleID" "ruleName" "alertTime" "eventTime" "actingObject" "fileServerDomain" "path" "affectedObject" "eventType" "IP Address / Host" "severity"`
+```test-varonis-module.ps1 "ruleID" "ruleName" "alertTime" "eventTime" "actingObject" "fileServerDomain" "path" "affectedObject" "eventType" "IP Address / Host" "severity"```
 
 Which should check that the variables are being mapped and exported correctly.
 
@@ -39,7 +39,7 @@ Which should check that the variables are being mapped and exported correctly.
 
 The Varonis Powershell Module relies upon a specific configuration of the Real Time Alert Template. A new Real Time Alert Template should be created that has the following format:
 
-`<Rule ID> <Rule Name> <Alert Time> <Event Time> <Acting Object> <File Server/Domain> <Path> <Affected Object> <Event Type> <IP Address/Host> <Additional Data> <Severity>`
+```<Rule ID> <Rule Name> <Alert Time> <Event Time> <Acting Object> <File Server/Domain> <Path> <Affected Object> <Event Type> <IP Address/Host> <Additional Data> <Severity>```
 
 The field order of the template must exactly match that of the above or variables won't be passed correctly into the Powershell scripts as they are called.
 
