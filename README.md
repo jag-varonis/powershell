@@ -65,6 +65,7 @@ This greatly improves the ease with which new scripts can be written as the vari
 
 The variables are:
 
+```powershell
 	$ruleID
 	$ruleName
 	$alertTime
@@ -76,6 +77,7 @@ The variables are:
 	$eventType
 	$ipAddressHost
 	$severity
+```
 
 This greatly simplifies the development of scripts, often to a single line:
 	
