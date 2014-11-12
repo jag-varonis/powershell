@@ -54,6 +54,19 @@ The Varonis PowerShell Module relies upon a specific configuration of the Real T
 
 The field order of the template must exactly match that of the above or variables won't be passed correctly into the PowerShell scripts as they are called.
 
+During your DatAlert setup you'll have the option to specify an executable script to run, at this time you should choose:
+
+```powershell
+C:\Windows\System32\WindowsPowershell\v1.0\powershell.exe
+```
+
+If you're not sure where your PowerShell executable is located you can run ```$PsHome``` from within a PowerShell command window. 
+
+**Note: Microsoft puts all PowerShell versions in a \v1.0\ folder, because things were not sufficiently complicated.**
+
+<img src='https://raw.githubusercontent.com/varonis/powershell/master/assets/dl-config.jpg'>
+
+
 #### 3. Set the Alert Method
 
 Rules can be edited to include multiple Alert Methods - to enable PowerShell scripting you'll need to check 'Command-line script' under Edit Rule > Alert Method.
