@@ -49,8 +49,10 @@ Which should check that the variables are being mapped and exported correctly.
 The Varonis PowerShell Module relies upon a specific configuration of the Real Time Alert Template. A new Real Time Alert Template should be created that has the following format:
 
 ```powershell
-<Rule ID> <Rule Name> <Alert Time> <Event Time> <Acting Object> <File Server/Domain> <Path> <Affected Object> <Event Type> <IP Address/Host> <Additional Data> <Severity>
+'<Rule ID>' '<Rule Name>' '<Alert Time>' '<Event Time>' '<Acting Object>' '<File Server/Domain>' '<Path>' '<Affected Object>' '<Event Type>' '<IP Address/Host>' '<Additional Data>' '<Severity>'
 ```
+
+<img src='https://raw.githubusercontent.com/varonis/powershell/master/assets/template.jpg'>
 
 The field order of the template must exactly match that of the above or variables won't be passed correctly into the PowerShell scripts as they are called.
 
