@@ -52,7 +52,7 @@ The Varonis PowerShell Module relies upon a specific configuration of the Real T
 '<Rule ID>' '<Rule Name>' '<Alert Time>' '<Event Time>' '<Acting Object>' '<File Server/Domain>' '<Path>' '<Affected Object>' '<Event Type>' '<IP Address/Host>' '<Additional Data>' '<Severity>'
 ```
 
-<img src='https://raw.githubusercontent.com/varonis/powershell/master/assets/template.jpg'>
+<img src='https://raw.githubusercontent.com/varonis/powershell/master/assets/template.png'>
 
 The field order of the template must exactly match that of the above or variables won't be passed correctly into the PowerShell scripts as they are called.
 
